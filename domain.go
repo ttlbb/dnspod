@@ -32,7 +32,7 @@ type DomainInfo struct {
 
 //Domain Details
 type Domain struct {
-	ID               int64  `json:"id"`
+	ID               string  `json:"id"`
 	Status           Enable `json:"status"`
 	Grade            string `json:"grade"`
 	GroupID          int    `json:"group_id,string"`
